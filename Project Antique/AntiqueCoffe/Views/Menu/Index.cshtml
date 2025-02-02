@@ -1,0 +1,78 @@
+﻿@using AntiqueCoffe.ModelViews
+@using EntityLayer.Concrete
+@model MenuModelViews
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/UserLayout.cshtml";
+}
+@foreach (var item in Model.Homes)
+{
+    
+
+<div class="hero" id="Hero">
+    <div class="overlay">
+        <div class="content-wrapper">
+            <div class="content-box-1">
+                <br>
+                <h1>@item.Title1</h1>
+                <p>@item.Title2</p>
+
+            </div>
+            <div class="content-box-2">
+                <br>
+
+                <p>
+                  @item.Text1
+                </p>
+            </div>
+            <a href="#" class="explore-button"><i class="fa-solid fa-mug-saucer"></i> Let's Explore...</a>
+
+        </div>
+    </div>
+</div>
+}
+<section class="Menu-Section" id="Menu">
+
+    <div class="Menu-Container">
+        <div class="menu-title">
+            <p>Our Cafe Menu</p>
+        </div>
+    
+    
+        <div class="Menu-list">
+     
+            <div class="Menu" id="first-list">
+                    @foreach (var item in Model.Menus)
+                    {
+                <div class="menu-item">
+                    <img src="@item.MenuImage" alt="h">
+                    <div class="details">
+                        <h2>@item.MenuName</h2>
+                        <p>@item.SmallPrice</p>
+                        <p>@item.LargePrice</p>
+                    </div>
+                       
+                </div>
+                }
+                 
+            </div>
+            
+
+            <div class="Menu" id="second-list">
+                @foreach (var item2 in Model.MenuRights)
+                {
+                    
+               
+                <div class="menu-item">
+                    <div class="details-right">
+                        <h2>@item2.MenuNameRight</h2>
+                        <p>@item2.MenuRightSmallPrice</p>
+                        <p>@item2.MenuRightLargePrice</p>
+                    </div>
+                    <img src="@item2.MenuRightImage" alt="h">
+                </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>

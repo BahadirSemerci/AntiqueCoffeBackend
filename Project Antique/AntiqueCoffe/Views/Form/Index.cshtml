@@ -1,0 +1,57 @@
+﻿@using EntityLayer.Concrete
+@model List<Contact>
+<html>
+<head>
+    <title></title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <style type="text/css">
+        .arabatablo{
+            border-collapse: collapse;
+            font-family: 'PT Sans', sans-serif;
+            width: 100%;
+        }
+
+            .arabatablo td, .arabatablo th {
+                border: 1px solid lavenderblush;
+                padding: 8px 12px;
+            }
+
+            .arabatablo th {
+                text-align: left;
+                background-color: tomato;
+                color: white;
+            }
+
+            .arabatablo tr:hover {
+                background-color: lavenderblush;
+            }
+
+            .arabatablo tr:nth-child(even) {
+                background-color: floralwhite;
+            }
+    </style>
+</head>
+<body>
+    <table class="arabatablo">
+        <tr>
+            <th>Kullanıcı ID</th>
+            <th>Kullanıcı Adı</th>
+            <th>Kullanıcı Mail Adresi</th>
+            <th>Kullanıcı Mesajı</th>
+            
+        </tr>
+        
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>@item.ContactID</td>
+          <td>@item.UserName</td>
+          <td>@item.UserEmail</td>
+                <td>@item.UserMessage</td>
+           
+        </tr>
+        }
+    </table>
+</body>
+</html>

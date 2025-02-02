@@ -1,0 +1,19 @@
+﻿using DataAccsessLayer.Abstract;
+using DataAccsessLayer.Repositories;
+using EntityLayer.Concrete;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DataAccsessLayer.EntitiyFreamwork
+{
+    public class EfMenuRightRepository : GenericRepository<MenuRight>,IMenuRightDal
+    {
+        public List<Menu> GetListWithCategory()
+        {
+            throw new NotImplementedException();
+        }
+    }
+}

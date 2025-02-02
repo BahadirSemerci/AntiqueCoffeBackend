@@ -1,0 +1,588 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Matemasie&family=Oswald:wght@200..700&family=Permanent+Marker&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Navbar Code Start*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 10%;
+  transition: 0.2s;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+header.shadow {
+  box-shadow: 0 0 4px rgb(14 55 54 / 15%);
+}
+
+#navbar-icon {
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+  color: red;
+  transition: transform 0.3s;
+}
+
+#navbar-icon.open {
+  transform: rotate(90deg);
+}
+
+.close-icon {
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+  color: black;
+}
+
+.navbar-container.active .close-icon {
+  display: block;
+}
+
+.navbar-container {
+  display: flex;
+}
+
+.navbar-container li a {
+  position: relative;
+  display: inline-block;
+  color: #cd853f;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  transition: color 0.4s ease, transform 0.4s ease, text-shadow 0.4s ease;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.navbar-container li a:hover {
+  color: #cd853f;
+  transform: translateY(-5px) rotateX(10deg);
+  text-shadow: 0 10px 20px rgba(0, 0, 0, 0);
+}
+
+
+.navbar-container li a::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #cd853f;
+  bottom: -5px;
+  left: 0;
+  transition: width 0.4s ease;
+  display: flex;
+  margin-left: auto;
+}
+
+.navbar-container li a:hover::before {
+  width: 100%;
+}
+
+.navbar-container a {
+  font-size: 1rem;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+
+.navbar-container a:hover {
+  color: #cd853f;
+}
+
+/*Home Section Code Start*/
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Arka plan resmi ve parallax efekt */
+.hero {
+  height: 100vh;
+  background: url('/css/resimler/İmage1.jpg') no-repeat center center/cover;
+  position: relative;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/css/resimler/İmage1.jpg);
+  background-position-x: 0px;
+  background-position-y: 0px;
+}
+
+.hero-button {
+  color: #fff;
+  text-align: left;
+  line-height: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  /* Kutu için yarı saydam arka plan */
+  padding: 20px;
+
+
+
+}
+
+/* Arka plan üzerine yarı saydam katman */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* İçerik kutularını alt alta dizen div */
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  /* Alt alta dizilim */
+  align-items: center;
+  gap: 20px;
+  /* Kutular arasında boşluk */
+}
+
+/* İçerik kutusu */
+.content-box-2 {
+  color: #fff;
+  text-align: left;
+  line-height: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  /* Kutu için yarı saydam arka plan */
+  padding: 20px;
+
+  max-width: 600px;
+  width: 400px;
+  height: 250px;
+
+}
+
+.content-box-1 {
+  color: #fff;
+  text-align: center;
+  line-height: 3rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  /* Kutu için yarı saydam arka plan */
+  padding: 20px;
+
+  max-width: 600px;
+  width: 400px;
+  height: 200px;
+}
+
+.content-box-1 p {
+  color: #c0864d;
+}
+
+.content-box-1 h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+
+/* Buton stili */
+.explore-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  color: #c0864d;
+  width: 200px;
+  height: 70px;
+  text-align: center;
+  padding: 22px;
+}
+
+.explore-button:hover {
+  color: #fff;
+}
+
+
+.Menu-Section {
+  background: url('/css/resimler/İmage2.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.Menu-Container {
+  padding: 10% 0;
+}
+
+.Menu-list {
+  display: flex;
+  flex-direction: row;
+  justify-content:column;
+  padding: 1%;
+  margin: 5%;
+  /* background-color: antiquewhite; */
+}
+
+.Menu {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  background-color: #544639;
+  border: 2px solid transparent;
+  border-radius: 20px;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: row;
+  margin: 2%;
+  padding: 3%;
+  text-align: right;
+}
+
+#first-list {
+  align-items: flex-start;
+  margin-left: 5%;
+}
+
+#second-list {
+  align-items: flex-end;
+  margin-left: 5%;
+}
+
+
+.menu-item img {
+  
+  border-radius: 20px;
+  transition: box-shadow 0.3s ease;
+  /* Adding transition for smooth effect */
+  box-shadow: none;
+  /* Initial box-shadow set to none */
+}
+
+
+
+
+.details {
+  /* padding: 2px; */
+  margin-left: 3%;
+}
+
+.details-right {
+  margin-right: 3%;
+}
+
+.details h2 {
+  color: #fc6;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  text-align: left;
+}
+
+.details p {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: white;
+  text-align: left;
+}
+
+.details-right h2 {
+  color: #fc6;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+
+.details-right p {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: white;
+
+}
+
+.menu-title {
+  width: 20%;
+  height: 10%;
+  background-color: #fff;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.menu-title p {
+  text-align: center;
+  padding: 5%;
+  font-size: 20px;
+  color: #544639;
+}
+
+.about-section {
+  height: 100vh;
+
+  position: relative;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/css/resimler/image3.jpg);
+  background-position-x: 0px;
+  background-position-y: 0px;
+}
+
+/* Genel stil */
+
+
+/* Konteyner */
+.about-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-right: 320px;
+}
+
+/* Şeffaf kutu (overlay) */
+.about {
+  background-color: rgba(255, 255, 255, 0.8);
+  /* Şeffaflık için */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Hafif gölge */
+  text-align: left;
+}
+
+.about-container h1 {
+  font-size: 30px;
+  color: #00695c;
+  margin-bottom: 20px;
+}
+
+.about-container p {
+  color: #555;
+  margin-bottom: 15px;
+  line-height: 1.6;
+  font-size: 17px;
+}
+
+/* Buton stili */
+.contact-btn {
+  display: block;
+  margin-top: 20px;
+  /* Yazının altına boşluk ekler */
+  background-color: #006d5b;
+  /* Buton rengi */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+
+}
+
+.contact-btn:hover {
+  background-color: #004d40;
+}
+
+
+.contact-section {
+  height: 100vh;
+
+  position: relative;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/css/resimler/İmage4.jpg);
+  background-position-x: 0px;
+  background-position-y: 0px;
+}
+
+.contact-container {
+  height: 100vh;
+
+  position: relative;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/css/resimler/İmage4.jpg);
+  background-position-x: 0px;
+  background-position-y: 0px;
+  border-radius: 15px;
+}
+
+.contact-form {
+  background-color: rgba(0, 0, 0, 0.3);
+
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  /* Alanların genişliğini ayarlar */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 450px;
+}
+
+
+
+
+.contact-info {
+  background-color: rgba(255, 255, 255, 0.8);
+
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  /* Alanların genişliğini ayarlar */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 450px;
+
+}
+
+.contact-info h1 {
+  color: #004d40;
+}
+
+.contact-info p {
+  color: black;
+  text-align: left;
+  margin: 10px 0;
+  line-height: 2rem;
+  font-size: 17px;
+}
+
+.contact-info {
+  margin-right: 20px;
+}
+
+.contact-btn {
+  background-color: #066;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 70px;
+  font-size: 22px;
+
+}
+
+
+/* Form kutusu stili */
+.form-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+  width: 30%;
+  height: 450px;
+  box-sizing: border-box;
+}
+
+/* Giriş alanları stili */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 1px solid #c0864d;
+  background-color: transparent;
+  color: #fff;
+  font-size: 16px;
+}
+
+/* Mesaj alanını sabitleme */
+.form-container textarea {
+  resize: none;
+  height: 150px;
+  /* Sabit yükseklik */
+}
+
+/* Placeholder rengi */
+.form-container input::placeholder,
+.form-container textarea::placeholder {
+  color: #ddd;
+}
+
+/* Gönder butonu stili */
+.form-container button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px 0;
+  transition: color 0.3s;
+  text-align: right;
+  /* Butonu sağa hizalar */
+  float: right;
+  /* Butonu sağa kaydırır */
+}
+
+/* Gönder butonu hover efekti */
+.form-container button:hover {
+  color: #aaa;
+}
+
+.footer {
+  width: auto;
+  height: 200px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+
+
+
+}

@@ -1,0 +1,142 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bseme\\OneDrive\\Masa\u00FCst\u00FC\\Project Antique\\AntiqueCoffe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88FE70B4-A33B-46DD-8CB0-075A67ED9FD9}|AntiqueCoffe.csproj|c:\\users\\bseme\\onedrive\\masa\u00FCst\u00FC\\project antique\\antiquecoffe\\views\\shared\\userlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88FE70B4-A33B-46DD-8CB0-075A67ED9FD9}|AntiqueCoffe.csproj|solutionrelative:views\\shared\\userlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDCB763-B19C-41B4-8682-E343F5DAD3CF}|..\\BussiniesLayer\\BussiniesLayer.csproj|c:\\users\\bseme\\onedrive\\masa\u00FCst\u00FC\\project antique\\bussinieslayer\\abstract\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDCB763-B19C-41B4-8682-E343F5DAD3CF}|..\\BussiniesLayer\\BussiniesLayer.csproj|c:\\users\\bseme\\onedrive\\masa\u00FCst\u00FC\\project antique\\bussinieslayer\\concrete\\contactmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88FE70B4-A33B-46DD-8CB0-075A67ED9FD9}|AntiqueCoffe.csproj|c:\\users\\bseme\\onedrive\\masa\u00FCst\u00FC\\project antique\\antiquecoffe\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88FE70B4-A33B-46DD-8CB0-075A67ED9FD9}|AntiqueCoffe.csproj|solutionrelative:controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F02A06B-C9E1-47BD-8AA2-2945D494D9F0}|..\\EntityLayer\\EntityLayer.csproj|c:\\users\\bseme\\onedrive\\masa\u00FCst\u00FC\\project antique\\entitylayer\\concrete\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88FE70B4-A33B-46DD-8CB0-075A67ED9FD9}|AntiqueCoffe.csproj|c:\\users\\bseme\\onedrive\\masa\u00FCst\u00FC\\project antique\\antiquecoffe\\views\\form\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88FE70B4-A33B-46DD-8CB0-075A67ED9FD9}|AntiqueCoffe.csproj|solutionrelative:views\\form\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88FE70B4-A33B-46DD-8CB0-075A67ED9FD9}|AntiqueCoffe.csproj|c:\\users\\bseme\\onedrive\\masa\u00FCst\u00FC\\project antique\\antiquecoffe\\controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88FE70B4-A33B-46DD-8CB0-075A67ED9FD9}|AntiqueCoffe.csproj|solutionrelative:controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\bseme\\OneDrive\\Masa\u00FCst\u00FC\\Project Antique\\AntiqueCoffe\\Views\\Form\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Form\\Index.cshtml",
+              "ToolTip": "C:\\Users\\bseme\\OneDrive\\Masa\u00FCst\u00FC\\Project Antique\\AntiqueCoffe\\Views\\Form\\Index.cshtml",
+              "RelativeToolTip": "Views\\Form\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-30T19:18:27.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormController.cs",
+              "DocumentMoniker": "C:\\Users\\bseme\\OneDrive\\Masa\u00FCst\u00FC\\Project Antique\\AntiqueCoffe\\Controllers\\FormController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FormController.cs",
+              "ToolTip": "C:\\Users\\bseme\\OneDrive\\Masa\u00FCst\u00FC\\Project Antique\\AntiqueCoffe\\Controllers\\FormController.cs",
+              "RelativeToolTip": "Controllers\\FormController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T19:17:02.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\bseme\\OneDrive\\Masa\u00FCst\u00FC\\Project Antique\\EntityLayer\\Concrete\\Contact.cs",
+              "RelativeDocumentMoniker": "..\\EntityLayer\\Concrete\\Contact.cs",
+              "ToolTip": "C:\\Users\\bseme\\OneDrive\\Masa\u00FCst\u00FC\\Project Antique\\EntityLayer\\Concrete\\Contact.cs",
+              "RelativeToolTip": "..\\EntityLayer\\Concrete\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T15:29:07.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\bseme\\OneDrive\\Masa\u00FCst\u00FC\\Project Antique\\AntiqueCoffe\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\bseme\\OneDrive\\Masa\u00FCst\u00FC\\Project Antique\\AntiqueCoffe\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T12:37:36.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContactManager.cs",
+              "DocumentMoniker": "C:\\Users\\bseme\\OneDrive\\Masa\u00FCst\u00FC\\Project Antique\\BussiniesLayer\\Concrete\\ContactManager.cs",
+              "RelativeDocumentMoniker": "..\\BussiniesLayer\\Concrete\\ContactManager.cs",
+              "ToolTip": "C:\\Users\\bseme\\OneDrive\\Masa\u00FCst\u00FC\\Project Antique\\BussiniesLayer\\Concrete\\ContactManager.cs",
+              "RelativeToolTip": "..\\BussiniesLayer\\Concrete\\ContactManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T12:35:05.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IContactService.cs",
+              "DocumentMoniker": "C:\\Users\\bseme\\OneDrive\\Masa\u00FCst\u00FC\\Project Antique\\BussiniesLayer\\Abstract\\IContactService.cs",
+              "RelativeDocumentMoniker": "..\\BussiniesLayer\\Abstract\\IContactService.cs",
+              "ToolTip": "C:\\Users\\bseme\\OneDrive\\Masa\u00FCst\u00FC\\Project Antique\\BussiniesLayer\\Abstract\\IContactService.cs",
+              "RelativeToolTip": "..\\BussiniesLayer\\Abstract\\IContactService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T12:33:52.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\bseme\\OneDrive\\Masa\u00FCst\u00FC\\Project Antique\\AntiqueCoffe\\Views\\Shared\\UserLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\UserLayout.cshtml",
+              "ToolTip": "C:\\Users\\bseme\\OneDrive\\Masa\u00FCst\u00FC\\Project Antique\\AntiqueCoffe\\Views\\Shared\\UserLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\UserLayout.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAwwE0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T16:59:07.595Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

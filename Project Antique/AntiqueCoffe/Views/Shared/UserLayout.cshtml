@@ -1,0 +1,94 @@
+﻿
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antique Cafe</title>
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+          integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="mediascreen.css">
+
+</head>
+
+<body>
+    <!--Navbar Code Start-->
+    <header>
+        <a href="#" class="nav-logo" style="text-decoration: none;"></a>
+        <div class="bx bx-menu" id="navbar-icon"></div>
+        <ul class="navbar-container">
+            <li><a href="#Hero">Intro</a></li>
+            <li><a href="#Menu">Menu</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </header>
+    <!--Navbar Code End-->
+
+
+    
+
+    @RenderBody()
+    <section class="about-section" id="About">
+        <div class="about-container">
+            <div class="about">
+                <h1>About our cafe</h1>
+                <p>
+                    Images are taken from Pexels, a great stock photo website. You may modify Antique Cafe template in any way you prefer and use it for your website.
+                </p>
+                <p>
+                    If you wish to support us that would be very helpful. Another way is to tell your friends about Tooplate website.
+                </p>
+                <p>
+                    Thank you. consectetur sit amet volutpat vitae sem.
+                </p>
+                <a href="#Contact"> <button class="contact-btn"><i class="fa-solid fa-message"></i> Contact</button></a>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="contact-container" id="Contact">
+        <div class="contact-info">
+            <h1>Contact Us</h1>
+            <p class="contact-p1">
+                Praesent tellus magna, consectetur sit amet volutpat eu, pulvinar vitae sem. Sed ultrices. bg white 80% alpha. btn #066
+            </p>
+            <p>Tel: <a href="#" style="color: #066;">010-020-0340</a></p>
+            <p>E-mail: <a href="#" style="color: #066;">info@domain.com</a></p>
+
+            <a href="#">  <button class="contact-btn"><i class="fa-solid fa-map-location-dot"></i> Go Maps</button></a>
+        </div>
+
+        <div class="form-container">
+            <form asp-controller="Contact" asp-action="Index" method="post">
+                <input type="text" id="name" placeholder="Name" name="UserName" onblur="checkField('name')" required="">
+                <input type="email" id="email" placeholder="Email" name="UserEmail" onblur="checkField('email')" required="">
+                <textarea id="message" placeholder="Message..." name="UserMessage" onblur="checkField('message')" required=""></textarea>
+                <a href="Menu/Index">  <button type="submit"> Send it</button></a>
+            </form>
+        </div>
+    </div>
+
+
+
+    <section>
+        <div class="footer">
+            <a href=""> <img class="img" src="~/css/resimler/footer.jpg" alt=""></a>
+        </div>
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
